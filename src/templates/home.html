@@ -2,40 +2,42 @@
 {% block content %}
 
 <div class="home-container">
-    <div class="tile-grid">
+    <div class="two-column">
+    <div class="tile-grid" id="mainButtons">
 
         <div class="home-box">
         <a href="{{ url_for('update') }}" class="tile">
-            <h3>🌿 Update Info</h3>
-            <p>Update your courses and graduation timeline</p>
+            <h3 class="home-box-text">🌿 Update Info</h3>
+            <p class="home-box-text">Update your courses and graduation timeline</p>
         </a>
         </div>
 
         <div class="home-box">
         <a href="{{ url_for('requirements') }}" class="tile">
-            <h3>🌳 Remaining Requirements</h3>
-            <p>Track your progress toward graduation</p>
+            <h3 class="home-box-text">🌳 Remaining Requirements</h3>
+            <p class="home-box-text">Track your progress toward graduation</p>
         </a>
         </div>
 
         <div class="home-box">
         <a href="{{ url_for('optimal_path') }}" class="tile">
-            <h3>🍃 Optimal Semester Path</h3>
-            <p>See AI-generated semester planning</p>
+            <h3 class="home-box-text">🍃 Optimal Semester Path</h3>
+            <p class="home-box-text">See AI-generated semester planning</p>
         </a>
         </div>
 
         <div class="home-box">
         <a href="{{ url_for('patriotai') }}" class="tile">
-            <h3>🤖 PatriotAI</h3>
-            <p>Your academic assistant</p>
+            <h3 class="home-box-text">🤖 PatriotAI</h3>
+            <p class="home-box-text">Your academic assistant</p>
         </a>
         </div>
 
     </div>
 
-    <div class="hero">
+    <div class="tile-grid">
         <img src="{{ url_for('static', filename='/images/SAPPI_transparent.png') }}" alt="A smiling tree">
+    </div>
     </div>
 </div>
 

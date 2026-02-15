@@ -71,3 +71,40 @@ input {
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
 }
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two columns of equal width */
+  gap: 20px; /* Adds space between columns */
+}
+
+.column {
+  padding: 1rem;
+  /* Add other styling like background-color, border, etc. */
+}
+
+#main-buttons {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px; /* Even gap between items */
+}
+
+.home-box {
+    background-color: #b37c49;
+    border: 2px solid #ccc; /* Shorthand: width | style | color */
+    padding: 10px;          /* Adds space between the text and the border */
+    margin: 10px;           /* Adds space outside the border, between elements */
+}
+
+#hello {
+    text-align: right;
+}
+
+table, th, td {
+  border: 1px solid black; /* Sets a 1-pixel solid black border for all */
+}
+
+td, th {
+  padding: 10px; /* Adds 10px of space around content in cells */
+}

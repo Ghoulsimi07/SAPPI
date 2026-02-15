@@ -2,22 +2,58 @@
 {% block content %}
 
 <div class="card">
+    <h2>🌲 Current Semester Classes</h2>
+    <p>Your In-Progress Courses:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Description</th>
+                <th>Pre-Req</th>
+                <th>Num Credits</th>
+                <th>Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for class in classesProgress %}
+            <tr>
+                <td>{{ class.course }}</td>
+                <td>{{ class.description }}</td>
+                <td>{{ class.pre_req }}</td>
+                <td>{{ class.credits }}</td>
+                <td>{{ class.semester }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="card">
     <h2>🌲 Optimal Semester Path</h2>
     <p>AI-generated recommended semester plan:</p>
 
-    <h4>Fall 2026</h4>
-    <ul>
-        <li>Data Structures</li>
-        <li>Linear Algebra</li>
-        <li>Operating Systems</li>
-    </ul>
-
-    <h4>Spring 2027</h4>
-    <ul>
-        <li>Algorithms</li>
-        <li>Database Systems</li>
-        <li>Capstone</li>
-    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Description</th>
+                <th>Pre-Req</th>
+                <th>Num Credits</th>
+                <th>Semester</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for class in classes %}
+            <tr>
+                <td>{{ class.course }}</td>
+                <td>{{ class.description }}</td>
+                <td>{{ class.pre_req }}</td>
+                <td>{{ class.credits }}</td>
+                <td>{{ class.semester }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 </div>
 
 {% endblock %}

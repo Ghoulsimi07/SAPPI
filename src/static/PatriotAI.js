@@ -17,3 +17,4 @@ function reset() {
      var imageElement = document.getElementById("myImage");
     imageElement.src = "\\static\\images\\SAPPI_starting.png";
 }
+

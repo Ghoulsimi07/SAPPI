@@ -6,9 +6,78 @@
     <p>Here you will see remaining core, elective, and credit requirements.</p>
 
     <ul>
-        <li>Core Courses Remaining: 5</li>
-        <li>Electives Remaining: 3</li>
-        <li>Total Credits Remaining: 24</li>
+        <div>
+        <h3>Core Courses Remaining: {{CoreCount}}</h3>   
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Pre-Req</th>
+                    <th>Num Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for class in coreClass %}
+                <tr>
+                    <td>{{ class.Course }}</td>
+                    <td>{{ class.description }}</td>
+                    <td>{{ class.pre_req }}</td>
+                    <td>{{ class.credits }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        </div>
+        <div>
+        <h3>Electives Remaining: {{ElectiveCount}}</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Pre-Req</th>
+                    <th>Num Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for class in electiveClass %}
+                <tr>
+                    <td>{{ class.Course }}</td>
+                    <td>{{ class.description }}</td>
+                    <td>{{ class.pre_req }}</td>
+                    <td>{{ class.credits }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </div>
+        <div>
+        <h3>Senior Classes: {{SeniorCount}}</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Pre-Req</th>
+                    <th>Num Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for class in seniorClass %}
+                <tr>
+                    <td>{{ class.Course }}</td>
+                    <td>{{ class.description }}</td>
+                    <td>{{ class.pre_req }}</td>
+                    <td>{{ class.credits }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <h3>Total Credits Remaining: {{CreditCount}}</h3>
+        </div>
     </ul>
 </div>
 

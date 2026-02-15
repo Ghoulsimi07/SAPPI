@@ -2,16 +2,19 @@
 {% block content %}
 
 <div class="card">
-    <h2>🌿 Update Your Course Information</h2>
+    <h2>🌿 Update Your Personal Information</h2>
 
     <form method="POST">
-        <label>Major</label>
-        <input type="text" name="major" placeholder="Computer Science">
+        <label>Name: {{student.name}}</label>
+        <input type="text" name="name" placeholder="Name">
 
-        <label>Expected Graduation Date</label>
-        <input type="month" name="graduation">
+        <label>Major: {{student.major}}</label>
+        <input type="text" name="major" placeholder="Major">
 
-        <button type="submit">Save & Continue</button>
+        <label>Expected Graduation Date: {{student.expected_graduation}}</label>
+        <input type="month" name="graduation" placeholder="Expected Graduation Date">
+
+        <button type="submit">Save</button>
     </form>
 </div>
 
