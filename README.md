@@ -24,3 +24,5 @@ src: Flask web-app that you can run locally
 - main.py = Flask web application + dynamically get DB info from MongoDB
 
 HOW TO RUN: After importing the MongoDB collections, run main.py
+SPONSOR TRACKS: Microsoft x Cloudforce, RedBull (Best Startup)
+INTERNAL TRACK: Education
