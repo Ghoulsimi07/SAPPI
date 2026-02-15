@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PatriotAI</title>
+    <script src="/static/PatriotAI.js"></script>
+  </head>
+
+{% extends "base.html" %}
+{% block content %}
+<body>
+<div class="card">
+    <h2>🌲 PatriotAI</h2>
+    <p>Your personalized academic assistant.</p>
+    
+    <div>
+    <img id="myImage" src="\static\images\SAPPI_starting.png" style="max-width:100%" class="container-flex">
+    </div>
+    
+    <div>
+    <br><br>
+    <p class = 'container-flex'>This is a demo to show how PatriotAI would look if integrated</p>
+    </div>
+    <div class="container-flex">
+        <button onclick="reset()">
+            Show Starting Conversations
+        </button>
+        
+        <button onclick="changeCourseInfo()">
+            See Course Info
+        </button>
+        
+        <button onclick="changeOptimal()">
+            Optimize Courses Left
+        </button>
+        
+        <button onclick="changeSemesterPlanning()">
+            Plan Semesters Out
+        </button>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>

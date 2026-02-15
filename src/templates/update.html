@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+    <h2>🌿 Update Your Course Information</h2>
+
+    <form method="POST">
+        <label>Major</label>
+        <input type="text" name="major" placeholder="Computer Science">
+
+        <label>Expected Graduation Date</label>
+        <input type="month" name="graduation">
+
+        <button type="submit">Save & Continue</button>
+    </form>
+</div>
+
+{% endblock %}

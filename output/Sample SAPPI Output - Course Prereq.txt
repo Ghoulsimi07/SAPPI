@@ -1,0 +1,83 @@
+Conversation Title: Prerequisites and Grade Requirements for CS262
+Agent: SAPPI: Semester Agenda Personal Planner Intelligence
+
+[02/14/2026 23:40:28 +00:00] Shruti Sekar:
+What is the required classes and grades needed for CS262?
+
+Response:
+To enroll in **CS262: Introduction to Low-Level Programming**, you need to meet one of the following prerequisite pathways:
+
+1. **CS110** and **CS211C**
+2. **CS110** and **CS211XS**
+3. **CS110** and **CS222C**
+4. **CS110** and **CS222XS**
+5. **CS110XS** and **CS211C**
+6. **CS110XS** and **CS211XS**
+7. **CS110XS** and **CS222C**
+8. **CS110XS** and **CS222XS**
+9. **CS101** and **CS211C**
+10. **CS101** and **CS211XS**
+11. **CS101** and **CS222C**
+12. **CS101** and **CS222XS**
+
+The grades required for these prerequisites are indicated by the suffixes **C** and **XS**, which typically denote a passing grade or higher. It's important to ensure you have completed these courses with the necessary grades before enrolling in CS262[doc1].
+
+[02/14/2026 23:41:33 +00:00] Shruti Sekar:
+What about if I have already taken CS110 and also need to take CS367. Which path works best?
+
+Response:
+To enroll in **CS367: Computer Systems and Programming**, having completed **CS110** already, you need to follow one of the pathways that include **CS262** and a math course. Here are your options:
+
+1. **CS110C**, **CS262C**, and **MATH125C**
+2. **CS110XS**, **CS262C**, and **MATH125C**
+3. **CS110C**, **CS262C**, and **MATH125XS**
+4. **CS110XS**, **CS262C**, and **MATH125XS**
+5. **CS110C**, **CS262XS**, and **MATH125C**
+6. **CS110XS**, **CS262XS**, and **MATH125C**
+7. **CS110C**, **CS262XS**, and **MATH125XS**
+8. **CS110XS**, **CS262XS**, and **MATH125XS**
+9. **CS110C**, **CS222XS**, and **MATH125C**
+10. **CS110XS**, **CS222XS**, and **MATH125C**
+11. **CS110C**, **CS222XS**, and **MATH125XS**
+12. **CS110XS**, **CS222XS**, and **MATH125XS**
+13. **CS110C**, **CS222C**, and **MATH125C**
+14. **CS110XS**, **CS222C**, and **MATH125C**
+15. **CS110C**, **CS222C**, and **MATH125XS**
+16. **CS110XS**, **CS222C**, and **MATH125XS**
+
+Since you've already completed **CS110**, you should focus on completing **CS262** and a math course such as **MATH125**[doc1].
+
+[02/14/2026 23:42:07 +00:00] Shruti Sekar:
+What's the best path if I have CS262 and CS367 to take?
+
+Response:
+If you have both **CS262** and **CS367** to take, it would be efficient to focus on completing the prerequisite courses for both classes that overlap. Here's a suggested path:
+
+1. **Complete CS110**: This is a common prerequisite for both CS262 and CS367.
+2. **Complete CS262**: As per the requirements for CS367, CS262 is a prerequisite.
+3. **Complete MATH125**: This is required for CS367.
+
+By following this sequence, you will meet the prerequisites for both CS262 and CS367 efficiently. Make sure to achieve the required grades in each course as specified in the prerequisites[doc1][doc2].
+
+[02/14/2026 23:42:21 +00:00] Shruti Sekar:
+Can I take them all in one semester?
+
+Response:
+Taking both **CS262** and **CS367** in one semester can be quite challenging, as CS367 requires the completion of CS262 as a prerequisite. Therefore, you cannot take them simultaneously unless you have special permission or an accelerated program that allows for concurrent enrollment in prerequisite courses.
+
+Here’s a suggested approach:
+
+1. **Check with Your Academic Advisor**: Consult with your academic advisor to see if there are any options for concurrent enrollment or if there are any exceptions that might apply to your situation.
+
+2. **Consider Summer Courses**: If possible, you might consider taking one of the courses during a summer session to spread out the workload.
+
+3. **Plan for Sequential Enrollment**: Typically, you would take CS262 first, followed by CS367 in a subsequent semester.
+
+Make sure to verify any special programs or exceptions with your institution to see if there's flexibility in the course scheduling.
+
+[02/14/2026 23:42:36 +00:00] Shruti Sekar:
+Is CS262 a prereq for CS367?
+
+Response:
+Yes, **CS262** is a prerequisite for **CS367**. To enroll in CS367, you need to have completed CS262 along with a math course, such as MATH125[doc1].
+
