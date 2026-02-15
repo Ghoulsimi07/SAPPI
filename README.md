@@ -23,6 +23,9 @@ src: Flask web-app that you can run locally
 - 1 javascript function to switch between buttons
 - main.py = Flask web application + dynamically get DB info from MongoDB
 
+TextFiles.zip: All major text file for requirements that can be fed into PatriotAI SAPPI agent. 
+Fun Fact! SAPPI Patriot AI Agent provided me dummy data from the .txt files (so maybe not "dummy" but "real" data) that I used in MongoDB collection!
+
 HOW TO RUN: After importing the MongoDB collections, run main.py
 SPONSOR TRACKS: Microsoft x Cloudforce, RedBull (Best Startup)
 INTERNAL TRACK: Education
