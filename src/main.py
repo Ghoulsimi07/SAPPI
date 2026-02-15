@@ -143,8 +143,8 @@ def optimal_path():
     for course in AllcoursesTaken:
         AllcourseTakenList.append(course['CourseTaken'])
 
-    print()
-    print(AllcourseTakenList)
+    #print()
+    #print(AllcourseTakenList)
 
     global next_semester
     global third_semester
@@ -153,7 +153,7 @@ def optimal_path():
     coreClass, seniorClass, electiveClass = grabRequirements()
     coreClass.extend(seniorClass)
     coreClass.extend(electiveClass)
-    print(coreClass)
+    #print(coreClass)
 
     classesProgress = []
     for remainingClass in coreClass:
