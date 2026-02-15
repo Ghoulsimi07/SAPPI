@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a32"
+  },
+  "Course": "CS 110",
+  "Description": "Essentials of Computer Science",
+  "Pre_Req": null,
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a33"
+  },
+  "Course": "CS 211",
+  "Description": "Object-Oriented Programming",
+  "Pre_Req": "CS112",
+  "Credits": 2
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a34"
+  },
+  "Course": "CS 262",
+  "Description": "Introduction to Low-Level Programming",
+  "Pre_Req": "CS110 and CS211",
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a35"
+  },
+  "Course": "CS 330",
+  "Description": "Formal Methods and Models",
+  "Pre_Req": "CS211 and MATH125",
+  "Credits": 4
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a36"
+  },
+  "Course": "CS 450",
+  "Description": "Database Concepts",
+  "Pre_Req": "CS310 and CS330",
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a37"
+  },
+  "Course": "MATH 446",
+  "Description": "Numerical Analysis I",
+  "Pre_Req": null,
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a38"
+  },
+  "Course": "SWE 432",
+  "Description": "Design and Implementation of Software for the Web",
+  "Pre_Req": "CS310 and MATH125",
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a39"
+  },
+  "Course": "ENGH 300",
+  "Description": "Introduction to Literary Theory",
+  "Pre_Req": null,
+  "Credits": 4
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3a"
+  },
+  "Course": "CS 499",
+  "Description": "Advanced Topics in Computer Science",
+  "Pre_Req": null,
+  "Credits": 2
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3b"
+  },
+  "Course": "SWE 411",
+  "Description": "Software Testing and Maintenance",
+  "Pre_Req": "CS310 and MATH125",
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3c"
+  },
+  "Course": "PHYS 160",
+  "Description": "University Physics I",
+  "Pre_Req": null,
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3d"
+  },
+  "Course": "PHYS 499",
+  "Description": "Advanced Topics in Physics",
+  "Pre_Req": "PHYS 261",
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3e"
+  },
+  "Course": "COMM 101",
+  "Description": "Introduction to Communication",
+  "Pre_Req": null,
+  "Credits": 3
+},
+{
+  "_id": {
+    "$oid": "69917bdc8fc0e1f5b2208a3f"
+  },
+  "Course": "GERM 415",
+  "Description": "Advanced German Composition and Conversation",
+  "Pre_Req": "GERM 110",
+  "Credits": 4
+}]

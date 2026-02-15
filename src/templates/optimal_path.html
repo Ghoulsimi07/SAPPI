@@ -2,7 +2,7 @@
 {% block content %}
 
 <div class="card">
-    <h2>🌲 Current Semester Classes</h2>
+    <h2>🌲 Current Semester Classes - {{current_semester}}:</h2>
     <p>Your In-Progress Courses:</p>
 
     <table>
@@ -12,17 +12,15 @@
                 <th>Description</th>
                 <th>Pre-Req</th>
                 <th>Num Credits</th>
-                <th>Semester</th>
             </tr>
         </thead>
         <tbody>
             {% for class in classesProgress %}
             <tr>
-                <td>{{ class.course }}</td>
-                <td>{{ class.description }}</td>
-                <td>{{ class.pre_req }}</td>
-                <td>{{ class.credits }}</td>
-                <td>{{ class.semester }}</td>
+                <td>{{ class.Course }}</td>
+                <td>{{ class.Description }}</td>
+                <td>{{ class.Pre_Req}}</td>
+                <td>{{ class.Credits}}</td>
             </tr>
             {% endfor %}
         </tbody>
@@ -45,7 +43,7 @@
         <tbody>
             {% for class in classes %}
             <tr>
-                <td>{{ class.course }}</td>
+                <td>{{ class.Course }}</td>
                 <td>{{ class.description }}</td>
                 <td>{{ class.pre_req }}</td>
                 <td>{{ class.credits }}</td>

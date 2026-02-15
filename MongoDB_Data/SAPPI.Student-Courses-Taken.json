@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a02"
+  },
+  "Student": "Shruti",
+  "CourseTaken": "CS 211",
+  "Semester": "2025-08"
+},
+{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a03"
+  },
+  "Student": "Shruti",
+  "CourseTaken": "CS 110",
+  "Semester": "2024-08"
+},
+{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a04"
+  },
+  "Student": "Shruti",
+  "CourseTaken": "MATH 113",
+  "Semester": "2024-08"
+},
+{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a05"
+  },
+  "Student": "Shruti",
+  "CourseTaken": "CS 210",
+  "Semester": "2025-02"
+},
+{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a06"
+  },
+  "Student": "Sekar",
+  "CourseTaken": "CS 110",
+  "Semester": "2025-02"
+},
+{
+  "_id": {
+    "$oid": "699175388fc0e1f5b2208a07"
+  },
+  "Student": "Sekar",
+  "CourseTaken": "PHYS 210",
+  "Semester": "2024-02"
+}]

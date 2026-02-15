@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0a"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 110",
+  "Type": "Core"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0b"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 211",
+  "Type": "Core"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0c"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 262",
+  "Type": "Core"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0d"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 330",
+  "Type": "Core"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0e"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 450",
+  "Type": "Senior"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a0f"
+  },
+  "Major": "Computer Science",
+  "Course": "MATH 446",
+  "Type": "Senior"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a10"
+  },
+  "Major": "Computer Science",
+  "Course": "SWE 432",
+  "Type": "Senior"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a11"
+  },
+  "Major": "Computer Science",
+  "Course": "ENGH 300",
+  "Type": "Elective"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a12"
+  },
+  "Major": "Computer Science",
+  "Course": "CS 499",
+  "Type": "Elective"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a13"
+  },
+  "Major": "Computer Science",
+  "Course": "SWE 411",
+  "Type": "Elective"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a14"
+  },
+  "Major": "Computer Science",
+  "Course": "PHYS 160",
+  "Type": "Elective"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a15"
+  },
+  "Major": "Physics",
+  "Course": "PHYS 499",
+  "Type": "Elective"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a16"
+  },
+  "Major": "Communications",
+  "Course": "COMM 101",
+  "Type": "Core"
+},
+{
+  "_id": {
+    "$oid": "699175468fc0e1f5b2208a17"
+  },
+  "Major": "German",
+  "Course": "GERM 415",
+  "Type": "Senior"
+}]

@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6991336e8fc0e1f5b22089b1"
+  },
+  "name": "Shruti",
+  "major": "Computer Science",
+  "expected_graduation": "2026-12",
+  "semesters_left": 2,
+  "starting_semester": "Spring 2024",
+  "program": "Masters"
+}]
